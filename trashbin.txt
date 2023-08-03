@@ -1,0 +1,21 @@
+    <div className="App">
+ 
+ref={textTitle}
+ 
+  const title=textTitle.current.value;
+    const color=hexColor.current.value;
+    alert(`${title}, ${color}`);
+    textTitle.current.value="";
+    hexColor.current.value="";
+ 
+ <input ref={hexColor} type="color"/>
+      <button>ADD</button>
+ 
+ const submit=(e)=>{
+      e.preventdfault();
+    };
+ 
+ const submit=(e)=>{
+      e.preventdfault();
+    };
+ 
